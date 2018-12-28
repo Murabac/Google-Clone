@@ -1,0 +1,137 @@
+/* Google styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: arail, sans-serif;
+    font-size: 13px;
+}
+a{
+    cursor: pointer;
+}
+
+#container {
+    width: 580px;
+    margin: 140px auto 0;
+    text-align: center;
+}
+form img {
+    position: absolute;
+    left: 66.7%;
+    top: 48.6%;
+    padding: 20px;
+}
+
+h1.logo{
+    width: 269px;
+    height: 95px;
+    background: url(../images/googlelogo_color_120x44dp.png) top left no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    margin: 0 auto;  
+}
+p.logo{
+    font-size: 18px;
+    color: dodgerblue;
+    position: absolute;
+    left: 55.8%;
+    top: 42.6%;
+}
+input[type="search"]
+{
+    margin: 25px 0 18px;
+    width: 566px;
+    padding: 11px;
+    margin: 25px 0 18px;
+    border: solid 1px #bbb;
+    font-size: 16px;
+    font-family:  arail, sans-serif;
+    box-shadow: 1px 1px 1px #888;
+    opacity: .4
+}
+input[type="search"]:hover{
+    box-shadow: 2px 3px 1px #888;
+    border-color: #aaaa99;
+}
+input[type="submit"]
+{
+    background: #f3f3f3;
+    color: gray;
+    border: solid 1px #f2f2f2;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 4px 0;
+    font-family: arail, sans-serif;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    border: solid 1px #ccc;
+    color: black;
+    background: #f6f6f6;
+}
+small{
+    display: block;
+    margin: 20px 0 20px;
+    font-size: 14px; 
+}
+
+nav#header{
+    text-align: right;
+    padding: 20px;
+
+}
+nav#header ul li{
+    display: inline;
+}    
+nav#header ul li img {
+    margin-bottom: -3px;
+    padding: 0;
+    opacity: .7;
+}
+nav#header ul li button{
+    padding: 7px 12px;
+    background-color: #4486f8;
+    border: solid 1px #4486f8;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+nav#header ul li a:hover,
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    background: #eee;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer nav{
+    padding: 20px;
+}
+footer nav ul li {
+    display: inline;
+}
+ul#left{
+    float: left;
+}
+ul#right{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
