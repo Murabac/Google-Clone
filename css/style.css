@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+
 }
 body{
     font-family: arail, sans-serif;
@@ -31,7 +31,7 @@ h1.logo{
     background: url(../images/googlelogo_color_120x44dp.png) top left no-repeat;
     background-size: 100%;
     text-indent: -99999px;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
 p.logo{
     font-size: 18px;
@@ -76,7 +76,7 @@ input[type="submit"]:hover
 small{
     display: block;
     margin: 20px 0 20px;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 nav#header{
@@ -86,7 +86,7 @@ nav#header{
 }
 nav#header ul li{
     display: inline;
-}    
+}
 nav#header ul li img {
     margin-bottom: -3px;
     padding: 0;
